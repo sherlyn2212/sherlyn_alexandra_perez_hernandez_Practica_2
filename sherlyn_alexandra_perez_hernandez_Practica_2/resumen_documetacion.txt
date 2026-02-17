@@ -1,0 +1,7 @@
+Sherlyn Alexandra Pérez Hernández.
+Codigo:222361783.
+Primero se descargó e instaló Godot y se creó un proyecto nuevo en 2D. Después se creó la escena principal llamada SistemaSolar usando un nodo Node2D como raíz. Dentro de esta escena se agregó un Sprite2D para representar el sol y se le asignó una textura, además de un Timer como hijo para controlar el movimiento.
+
+Posteriormente se creó una escena separada llamada Planeta, también con un Node2D como nodo raíz, a la cual se le agregó un Sprite2D y un CollisionShape2D. Esta escena se guardó para poder reutilizarla. Después, la escena Planeta se instanció tres veces dentro de la escena SistemaSolar, acomodando cada planeta en posiciones diferentes para que pudieran verse correctamente.
+
+Finalmente, se organizó la jerarquía usando un nodo contenedor para los planetas y se conectó la señal timeout del Timer al nodo SistemaSolar, donde se programó la rotación de los planetas. Al ejecutar el proyecto con el botón Play, se pudo observar el movimiento de los planetas alrededor del sol.

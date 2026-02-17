@@ -1,0 +1,7 @@
+Sherlyn Alexandra Pérez Hernández.
+Codigo:222361783.
+Durante la práctica, las partes que más se me dificultaron fueron la creación de la escena del planeta y, sobre todo, la instanciación de los planetas en la escena principal. Al inicio no entendía bien la diferencia entre un nodo y una escena, por lo que llegué a tener el planeta creado directamente dentro del sistema solar, lo que me causó confusión al intentar instanciarlo.
+
+Otra parte que se me atoró fue la conexión de la señal del Timer, ya que no encontraba la opción correcta para adjuntar el script y el nombre de la pestaña de señales era diferente a lo que esperaba. Esto provocó errores como que el método no fuera encontrado, hasta que entendí que el script debía estar en el nodo correcto y que el nombre del método tenía que coincidir exactamente.
+
+Finalmente, también me costó identificar por qué solo se veía un planeta, cuando en realidad había varios instanciados en la misma posición. Una vez que comprendí cómo funciona la jerarquía de nodos y la posición de los objetos, el funcionamiento general del proyecto fue más claro. Considero que estas dificultades se debieron principalmente a que es mi primer acercamiento práctico al manejo de escenas, señales y jerarquía en Godot.
